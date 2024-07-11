@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale =1.0">
+    <title>Uddeepana Rajasekara Personal Portfolio Website</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/b6b5c432c8.js" crossorigin="anonymous"></script>
+    <!-- <script src="./portfolio/portfolio.js"></script> -->
+
+</head>
+
+<body>
+
+    <div id="header">
+
+        <div class="container">
+
+            <nav>
+                <!-- <img src="data:image/png;base64,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"
+                    class="logo"> -->
+                <ul id="sidemenu">
+                    <li class="li-1"><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contacts">Contact</a></li>
+                    <i class="fas fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                
+
+                <h1>Hi, I am <br><span> Uddeepana Rajasekara</span></h1>
+                <p class="header-1">And I'm a <span class="auto-type"></span></p>
+                
+            </div>
+
+        </div>
+        <script src="./portfolio/portfolio.js"></script>
+    </div>
+
+
+    <!-- -----------------------------------------About---------------------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./WhatsApp Image 2024-06-03 at 11.54.28 AM.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">
+                        About Me
+                    </h1>
+                    <p>
+                        I am Uddeepana Rajasekara who have 1 Year Experience as a Full Stack Developer And
+                        expertise is to create and web design,Frontend design,and many more....
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experince')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experince">
+                        <ul>
+
+                            <li><span>2023 Janury-2023 December</span><br>DFCC BANK IT Department</li>
+                            <li><span>2022 August-December</span><br>RDB BANK Loan Department</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2008-2018</span><br>Ordinary Level-Mayurapada Central College-Mawanella</li>
+                            <li><span>2018-2022</span><br>High School-Pinnawala Central College-Rambukkana</li>
+                            <li><span>2022-2027</span><br>Bsc-Saegies Campus - Nugegoda</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------Services------------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">
+                My Services
+            </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Application</h2>
+                    <p>
+                        I have experince about Web Design Also I have Done Sevral Web Project With Several
+                        Companies And In My Univesity Life
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Interface Design</h2>
+                    <p>
+                        I have Experince UI/UX Design with FrontEnd Development with several company and in my
+                        university life
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Mobile App Design</h2>
+                    <p>
+                        I have experince about mobile application development in my career journey also I have
+                        good experince in my university life
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen"></i>
+                    <h2>Graphic Design</h2>
+                    <p>
+                        I have experince about Graphic Design Also I have Done Sevral Designing Projects
+                        For the Customers and as A Freelancer
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-terminal"></i>
+                    <h2>Code Development</h2>
+                    <p>
+                        I have experince about Code Development Also I have Good Experience Develop FrontEnd Code
+                        Developmnet
+                        and BackEnd Development
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-aws"></i>
+                    <h2>Web Site Hosting</h2>
+                    <p>
+                        I have experince about Web Site Hosting With Google Cloud,Hostinger,
+                        GoDaddy,DreamHost
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------portfolio---------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./w1.jpeg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you yo the talneted pepole around the world.
+                            Download it from play store</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./w2.jpeg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you yo the talneted pepole around the world.
+                            Download it from play store</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./w23.jpeg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you yo the talneted pepole around the world.
+                            Download it from play store</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+    </div>
+    </div>
+    <!-- -------------------------------------contact---------------------------------------------- -->
+    <div id="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>uddeepanaiduranga22@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+94770897454</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+                    </div>
+                    <a href="./my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name='submit-to-google-sheet'>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="button" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2024. All Rights Reserved.</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <Script>
+        var typed = new Typed(".auto-type", {
+            strings: ["FrontEnd Developer", "BackEnd Developer", "FullStack Developer", "Blogger"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </Script>
+   <script>
+    const scriptURL =  'https://script.google.com/macros/s/AKfycbwMbjbvWaSKpTzYT1W8dJLg66HspO7mwaXo0lcDUVIPoe3kDZ5cJsptztnYlAQUF7uhaQ/exec'; 
+    const form = document.forms['submit-to-google-sheet'];
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                console.log('Success!', response);
+                form.reset(); 
+            })
+            .catch(error => console.error('Error!', error.message));
+    });
+</script>
+
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+
+        }
+
+    </script>
+</body>
+
+
+</html>
